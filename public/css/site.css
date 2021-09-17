@@ -1,0 +1,167 @@
+.legend-sm{
+    font-size: medium;
+    padding-left: 15px;
+}
+
+.body-content{
+    min-height: 100vh;
+    padding-bottom: 200px;
+}
+
+/* .footer{
+    margin-top: -200px;
+} */
+
+.info-row{
+    padding-bottom: 15px;
+}
+
+.bg-agr-blue {
+    background-color: #00247D!important;
+}
+.bg-agr-red {
+    background-color: #e82226!important;
+}
+.hero-red {
+    border-bottom: 6px solid #e82226;
+}
+
+.icon-border{
+    border: 4px inset #202020;
+}
+
+.font-baloo{
+    font-family: 'Baloo 2', cursive;
+}
+.fw-bold{
+    font-weight: 800;
+}
+.fw-normal{
+    font-weight: 400;
+}
+.fw-semi-bold{
+    font-weight: 600;
+}
+
+.text-white{
+    color: white;
+}
+.text-grey{
+    color: #353535;
+}
+.text-red{
+    color: #e82226;
+}
+
+h1{
+    font-size: 54px;
+    line-height: 80%;
+}
+
+li{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 14pt
+}
+
+.text-white{
+    color: white;
+}
+
+.info-card-caption{
+    color:grey;
+    font-style: italic;
+    font-size: small;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info-card-header{
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+.info-card{
+    margin-top: 30px;
+}
+
+.img-center{
+    margin: 0 auto;
+}
+
+* {box-sizing: border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: left;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgba(200,200,200,0.6);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: rgba(100,100,100,0.6);;
+}
+
+/* Add an italic font style to all quotes */
+q {
+    font-style: italic;
+    color: white;
+}
+
+/* Add a blue color to the author */
+.author {color: rgba(255,255,255,0.8);}
