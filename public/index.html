@@ -40,7 +40,7 @@
     </head>
     <body>
         <div class="container-flex">
-            <nav class="row navbar navbar-expand-md bg-agr-blue navbar-dark text-white shadow-sm hero-red" id="nav">
+            <nav class="row navbar navbar-expand-md bg-agr-blue navbar-dark text-white shadow-sm hero-red fixed-top" id="nav">
                 <div class="container">
                     <a class="navbar-brand" href="#nav">
         
@@ -58,19 +58,19 @@
                         <!-- Right Side Of Navbar -->
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link " href="#">Home</a>
+                                <a class="nav-link " href="#home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="#">About Us</a>
+                                <a class="nav-link " href="#about">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="#">Testimonials</a>
+                                <a class="nav-link " href="#testimonials">Testimonials</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="#">Our Services</a>
+                                <a class="nav-link " href="#services">Our Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="#">Contact Us</a>
+                                <a class="nav-link " href="#contact">Contact Us</a>
                             </li>
 
                         </ul>
@@ -102,7 +102,7 @@
                     </div>
                 </div>
             </div> -->
-            <div class="row py-5" style="background-image: linear-gradient(to Bottom, rgba(200, 200, 200, 1), rgba(255, 255, 255, 1))">
+            <div class="row py-5" style="background-image: linear-gradient(to Bottom, rgba(200, 200, 200, 1), rgba(255, 255, 255, 1)); margin-top: 80px;" id="home" >
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 d-none d-lg-block">
@@ -115,22 +115,7 @@
                                 <div class="col">
                                     <img class="w-100" src="images/VAN-3.png" alt="New Zealand Heavy Automotive Glass Specialists">
                                 </div>
-                            </div>
-                            <!-- <div class="row" style="margin-top: -50px">
-                                <div class="col-lg-4 col-md-6 col-sm-12 text-center">
-                                    <img src="images/icon-windscreen.png" alt="" class=""> <br>
-                                    <strong class="font-baloo fw-semi-bold">Windscreen Replacements</strong>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-sm-12 text-center">
-                                    <img src="images/icon-body-glass.png" alt="" class=""> <br>
-                                    <strong class="font-baloo fw-semi-bold">Body Glass</strong>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-sm-12 text-center">
-                                    <img src="images/windscreen-replacement.JPEG" alt="" class="rounded-circle shadow icon-border"> <br>
-                                    <strong class="font-baloo fw-semi-bold">Chip Repairs</strong>
-                                </div>
-                            </div> -->
-                            
+                            </div>                            
                         </div>
                         
                         <div class="col-lg-4 col-sm-12 bg-agr-blue p-4">
@@ -143,7 +128,7 @@
                                     <p class="font-baloo text-primary text-center"><strong>Take a minute to fill in this form and we will give you a call with your best solution</strong></p>
                                 </div>
                             </div>
-                            <form class="text-white" action="mailto:samuel.j.cribb@gmail.com" method="post" enctype="text/plain">
+                            <form class="text-white" action="mailto:repairs@autoglassrepairs.nz" method="post" enctype="text/plain">
                                 <div class="form-row">
                                     <label for="name">Contact Name *</label>
                                     <input class="form-control w-100" type="text" required name='name'>
@@ -187,7 +172,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row my-5">
+            <!-- <div class="row my-5">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 d-none d-lg-block">
@@ -202,8 +187,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row my-5">
+            </div> -->
+            <div class="row my-5" id="about">
                 <div class="container">
                     <div class="row">
                         <div class="col text-center"><h1 class="font-baloo text-red fw-bold">About Us</h1></div>
@@ -282,7 +267,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row pt-4 pb-5 bg-agr-red">
+            <div class="row pt-4 pb-5 bg-agr-red" id="testimonials">
                 <div class="container">
                     <div class="row mb-3">
                         <div class="col">
@@ -328,7 +313,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row my-5">
+            <div class="row my-5" id="services">
                 <div class="container">
                     <div class="row mb-4">
                         <div class="col text-center"><h1 class="font-baloo text-red fw-bold">Our Services</h1></div>
@@ -483,7 +468,7 @@
                         <div class="col d-flex">
                             <img src="images/agr-logo.png" alt="Auto Glass Repairs Ltd" class="my-auto w-100">
                         </div>
-                        <div class="col text-light">
+                        <div class="col text-light" id="contact">
                             <h2 class="font-baloo fw-bold">ADDRESS</h2>
                             <p><strong>Phone</strong><br>021 288 0280</p>
                             <p><strong>Email Address</strong><br>repairs@autoglassrepairs.nz</p>
